@@ -1,7 +1,7 @@
-In my "retirement," I am dusting off my 1987 Computer Science degree -- unused for 25+ years -- to develop gamified online courseware.
+As CTO of the Spix Foundation, I am dusting off my 1987 Computer Science degree -- unused for 30 years -- and partnering with a team of AIs (currently Claude and Codex). Togetehr, we are accelerating the development of Spix's RESPECT™ EdTech Platform, a free and open source front-end (www.RESPECT.world) to the UN's emerging Digital Public Infrastructure for Education.
 
-Over the decade from 1022 to 1032 A.D., Guido d'Arezzo implemented a suite of new technologies that increased the efficiency of music education by 10x. Now, exactly a thousand years later, I hope to do likewise. However, I can't do it alone. If the prospect of accelerating music education by 10x intriques you, join me in designing and implementing JIMS Isomprphic Music System (JIMS).
+With my AIs' help, I am also eating my own dogfood: developing a RESPECT Compatible™ EdTech app.
 
-Come change the world with me!
+For an "idea man" like me, AI is *awesome*. It helps me turn my ideas into reality with remarkably low friction. Projects that had been on hold for DECADES are now moving forward, because of AI.
 
 --- @JimPlamondon
