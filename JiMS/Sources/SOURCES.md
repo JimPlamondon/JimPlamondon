@@ -138,7 +138,39 @@ came from turn-of-century American pedagogy. No single coiner.
   entered through the P-edge. Donor scales are how you explain location to someone
   without a map.
 
-## 6. Reference links used in session
+## 6. The millennium framing
+
+2026 is the thousand-year anniversary of Guido d'Arezzo's *Micrologus* (c. 1026;
+scholarship wobbles between c. 1025 and 1028 — say "a thousand years after Guido
+wrote the *Micrologus*," not "published," and no medievalist will snipe).
+
+The frame, latent in the 2009 paper's title and closing paragraph, made explicit:
+
+- **1026** — Guido ships relative-pitch *technology* (staff + solmisation), making
+  notes sight-readable and cutting singer-training time 5:1 to 10:1. Pesce on
+  Guido: "D as a sounding pitch is not fixed, but D as a notational symbol has a
+  very fixed meaning — its intervallic context." Movable-Ut from the start.
+- **The intervening millennium** — notation goes absolute-pitch; the transposition
+  tax appears and is moralized into "musicianship"; practitioners repeatedly
+  reinvent the escape under economic pressure (NNS + capo, Berlin's transposing
+  piano, Berklee's chord-scale ontology, Hooktheory's declared modes); the
+  Ionian-ization rises and falls (*A Cadence of Change*).
+- **2009** — "Sight-Reading Music Theory" poses the completion as a thought
+  experiment, admitting JIMS is "just a thought experiment — just as Guido's
+  'sight-singing' once was."
+- **2026** — the completed system (button-field, staff, chord-naming, tonnetz
+  dual): same solfa, same movable tonic, plus the geometry Guido lacked. Theory
+  itself becomes sight-readable.
+
+One-sentence version: *a thousand years after Guido made notes sight-readable,
+JiMS makes theory sight-readable.*
+
+The frame also resolves the apparent conflict between the two 2026 papers'
+theses: C6 says prescriptions never precede practice (rules trail), yet Guido's
+pedagogy created practice. The resolution: Guido shipped tools, not rules.
+**Rules trail practice; tools lead it.** That is the wager of the JiMS program.
+
+## 7. Reference links used in session
 
 - Open Music Theory, "Modal Mixture" — https://viva.pressbooks.pub/openmusictheory/chapter/modal-mixture/
 - Puget Sound *Music Theory 21st C.*, "Mode Mixture" — https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html
