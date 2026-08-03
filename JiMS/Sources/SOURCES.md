@@ -1,0 +1,138 @@
+# JiMS Sources
+
+Annotated source trail for the JiMS argument, assembled 2026-08-03 from a research
+conversation on the historiography of "borrowed chords," jazz pedagogy's alternatives,
+practitioner auto-transposition, and the geometric foundations of JiMS.
+
+Entries marked **[verified]** were confirmed against live sources during the session;
+entries marked **[recall]** rest on model knowledge or participant recollection and
+deserve a citation check before publication.
+
+---
+
+## 1. Primary JiMS documents (this folder)
+
+- **`JiMS_Chord_Naming1.pdf`** — *The JiMS Chord-Naming System.* Moveable-Do,
+  La-based-minor chord nomenclature. Three registers (tertian / symmetric /
+  root-relative), the Circle of Thirds, transplant-colon for borrowed shapes,
+  augmented-sixth family as `Fa:M3A6` + additions, Hendrix-chord identity.
+- **`JiMS_ButtonField_Solfa.jpg`** — JiMS button-field: hexagonal Wicki-family
+  layout, solfa-named buttons, diatonic collection on the light central band,
+  chromatic solfa (flatward left, sharpward right) on dark buttons.
+- **`A_Cadence_of_Change_v6.md`** — *A Cadence of Change: The Rise and Fall of the
+  Ionian-ization of Minor.* Corpus study (~30,000 works): Dominant-ization,
+  Major-ization, Fortification; their three-way fall; the pedagogical lag (C6);
+  harmonic/melodic minor as non-scales.
+
+## 2. Historiography of "borrowed chords" / mode mixture
+
+The concept crystallized in 19th-century German theory; the English word "borrowed"
+came from turn-of-century American pedagogy. No single coiner.
+
+- **Gottfried Weber**, *Versuch einer geordneten Theorie der Tonsetzkunst* (1817–21).
+  Roman-numeral analysis; *Mehrdeutigkeit* (a chord belongs to several keys at once) —
+  the precondition for "this chord in C major belongs to C minor." **[verified]**
+- **Moritz Hauptmann**, *Die Natur der Harmonik und der Metrik* (1853). Major and
+  minor as dialectical opposites on the same tonic; *Moll-Dur* hybrids. **[verified]**
+- **Hugo Riemann** (1880s–90s). *Molldur* (major with ♭6); the *Mollsubdominante*
+  in major as a normal functional event; German *Variante* = parallel key (NB: German
+  *Paralleltonart* means the **relative** key). **[recall — standard attribution]**
+- **Heinrich Schenker**, *Harmonielehre* (1906). *Mischung*: major and minor on one
+  tonic fuse into a single composite scale; stated symmetrically (either third may
+  replace the other). Fullest statement of the concept. **[verified]**
+- **Percy Goetschius**, *The Theory and Practice of Tone-Relations* (1st ed. 1892).
+  Early American "borrowed from the opposite mode" pedagogy; the vector by which
+  "borrowed" entered classroom English. **[verified — exact first-use wording unchecked]**
+- **Walter Piston**, *Harmony* (1941). "Interchange of modes" canonized for
+  mid-century American teaching. **[recall]**
+- **Jean-Jacques Rousseau**, *Dictionnaire de musique* (1768, vol. dated 1767).
+  Coins "tierce de Picardie" — at the moment of the practice's obsolescence, as
+  documented in *A Cadence of Change* §8. **[verified in Cadence sources]**
+
+**Key analytical results from the conversation:**
+
+1. The "evidence" for the parallel-minor donor is set-membership plus tonic
+   preservation: the relative minor shares the major key's notes and can lend
+   nothing; the parallel minor is the only minor scale containing the chromatic
+   notes (♭3, ♭6, ♭7) while sharing the tonic. "Relative minor transposed to the
+   tonic" *is* the parallel minor — the donor was always an interval pattern, not
+   a key. "Parallel" was never a finding; it is the coordinate system.
+2. The borrowed-chord accounting is asymmetric: minor's far larger borrowings from
+   Ionian (raised 7th, Picardy 3rd) were naturalized as "harmonic minor" and "the
+   minor key," while major's smaller borrowings from minor got the "borrowed" label.
+   The labels record what sounded foreign c. 1880, not history.
+3. The borrowed-chord concept itself obeys the Cadence paper's C6 lag: practice
+   peaks with Schubert (d. 1828); theory arrives 1853–1906; classroom canon 1941.
+
+## 3. Jazz pedagogy: chord-scale theory and modal interchange
+
+- **Barrie Nettles & Richard Graf**, *The Chord Scale Theory & Jazz Harmony*
+  (Advance Music, 1997); Nettles' Berklee *Harmony 1–4* workbooks (1987); Berklee
+  Harmony 2 course (modal interchange unit). **[verified]**
+- Doctrine, distinguished carefully:
+  - *Chord-scale theory*: every chord takes a parent scale from its own root;
+    diatonic ii–V–I in major = Dorian / Mixolydian / Ionian — three root-local names
+    for one unmoving collection (the Circle of Thirds fragmented into seven
+    "independent" scales).
+  - *Modal interchange*: a later, separate handler for non-diatonic, non-dominant
+    chords — donor is a parallel mode on the fixed tonic; donor attribution is
+    underdetermined (♭VII7 is in Aeolian, Dorian, and Mixolydian) and resolved by
+    convention, proving it is bookkeeping; chords are then re-filed functionally
+    (subdominant minor = the Le-containing group), after which provenance does no
+    further work.
+- **Hal Galper**'s "there are no modes in a ii–V–I" polemic — the internal jazz
+  critique of chord-scale verticalization. **[recall]**
+- Combinatorial cost of root-local pedagogy: every (root × quality) pair is a
+  separate object (×12 everywhere); tonic-local naming + hardware transposition
+  learns the system once. Berklee's "context-free" decodability is relief from a
+  burden its own absolute-pitch representation creates — locally rational for the
+  conservatory-trained installed base, globally wasteful.
+
+## 4. Practitioner auto-transposition precedents
+
+- **Nashville Number System** — Neal Matthews Jr. (Jordanaires, late 1950s) for
+  vocal charts; extended for session players by Charlie McCoy. Tonic-relative
+  naming in digits; still Ionian-normed (4m, ♭6). **[recall — standard attribution]**
+- **Glen Campbell** (TV interview, participant recollection): survived session work
+  via capo + numbers — hardware transposition plus degree-relative names; the
+  Wrecking Crew economics of the transposition tax. **[recall — locate interview]**
+- **Irving Berlin's transposing piano** ("my Buick"; Smithsonian collection).
+  Hardware transposition with fingering welded to F♯ — the black-key set as the
+  piano's only tactilely landmarked "button-field." Geometry without names: Berlin
+  still needed musical secretaries — the two halves (invariant geometry, degree
+  names) must be co-designed. **[recall — Smithsonian holding well documented]**
+- Pattern: three independent practitioner reinventions of fixed-tonic,
+  pattern-based naming under economic pressure (Berklee's ontology, NNS, Hooktheory
+  annotators' declared modes), while conservatory notation stayed absolute-pitch.
+
+## 5. Geometry: tonnetz, dual, button-field
+
+- **J. Plamondon**, "Sight-reading music theory: A thought experiment on improving
+  pedagogical efficiency" (c. 2006). Wicki button-field mapped to QWERTY;
+  Wicki-aligned tonnetz; the tonnetz's dual as a map of tonal chord-space.
+  https://www.academia.edu/2654225/ **[paywalled during session; content per
+  author description + citation record]**
+- **Douthett & Steinbach** (1998), "Parsimonious graphs" — the chicken-wire dual;
+  **Cohn**, neo-Riemannian P/R/L; **Tymoczko**, "The Generalized Tonnetz" (JMT 2012)
+  and *A Geometry of Music* (cited in the chord-naming doc §5.1). **[verified links]**
+- **Dynamic Tonality** — Milne, Sethares, Plamondon (Thumtronics). **[verified]**
+- Analytical result: on the dual map the tonic major triad's three one-edge
+  neighbors are the parallel minor (Mi↔Me), the relative minor (So↔La), and the
+  mediant minor (Do↔Ti). The parallel-vs-relative "donor" debate reduces to *which
+  one-step neighbor was visited*; mixture chords are the near flatward neighborhood
+  entered through the P-edge. Donor scales are how you explain location to someone
+  without a map.
+
+## 6. Reference links used in session
+
+- Open Music Theory, "Modal Mixture" — https://viva.pressbooks.pub/openmusictheory/chapter/modal-mixture/
+- Puget Sound *Music Theory 21st C.*, "Mode Mixture" — https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html
+- Bernstein, "Nineteenth-century harmonic theory," *Cambridge History of Western
+  Music Theory* — https://www.myweb.ttu.edu/pmarten/HOT2/HOT2Readings/CHWMT25-Bernstein.pdf
+- Schenker, *Neue musikalische Theorien und Phantasien* — https://archive.org/details/neuemusikalische21sche
+- Hauptmann, *Die Natur der Harmonik und der Metrik* — https://archive.org/details/bub_gb_VpksAAAAMAAJ
+- Goetschius, *Tone-Relations* — https://archive.org/details/theorypracticeof00goetuoft
+- Nettles & Graf — https://www.schott-music.com/en/the-chord-scale-theory-jazz-harmony-no307853.html
+- Berklee Online, Harmony 2 — https://online.berklee.edu/courses/harmony-2
+- Tymoczko, "The Generalized Tonnetz" — https://dmitri.mycpanel.princeton.edu/tonnetzes.pdf
+- Dynamic tonality — https://en.wikipedia.org/wiki/Dynamic_tonality
