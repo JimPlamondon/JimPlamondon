@@ -107,11 +107,26 @@ came from turn-of-century American pedagogy. No single coiner.
 
 ## 5. Geometry: tonnetz, dual, button-field
 
-- **J. Plamondon**, "Sight-reading music theory: A thought experiment on improving
-  pedagogical efficiency" (c. 2006). Wicki button-field mapped to QWERTY;
-  Wicki-aligned tonnetz; the tonnetz's dual as a map of tonal chord-space.
-  https://www.academia.edu/2654225/ **[paywalled during session; content per
-  author description + citation record]**
+- **Plamondon, Milne & Sethares**, "Sight-Reading Music Theory: A Thought
+  Experiment on Improving Pedagogical Efficiency" (JMTP, 2009) — in this folder as
+  `Sight_Reading_Music_Theory_JMTP2009.pdf`. **[primary document, read in full]**
+  Guido's 5:1–10:1 singer-training gain extended to "sight-reading music theory."
+  Presents JIMS: Wicki button-field (Fig. 1) and its mapping to a standard computer
+  keyboard (Fig. 3); tonic solfa with La-based minor (incl. novel De/Fe/My/Di);
+  JIMS staff = chromatic staff (Boisgelou 1764) + solfa, pointed note-heads, scale
+  dots, diamond tonic, Do-pointing crescent clef; tonnetz (Euler 1739) aligned with
+  the button-field's hex axes (Fig. 7); its triangles labeled with major/minor
+  triads as "JIMS button-field's map of tonal space" (Fig. 8 — the tonnetz dual);
+  fingering invariance and tuning invariance (syntonic continuum, dynamic
+  tonality); Thummer/QWERTY/iPhone controllers; the "Metrics" argument that
+  JIMS-like technology trivializes currently-prized skills (transposition,
+  functional analysis, key-relationship identification).
+  Already present in 2009, matured by 2026: "the 'major scale' and 'minor scale'
+  are not scales at all, but modes of the same (diatonic) scale" (→ *Two Scales
+  That Are Not Scales*); Re7-in-Do-mode as unambiguous V-of-V with the
+  tonicization/modulation distinction carried by the tonic indicator (→ the
+  chord-naming doc's diamond argument); chord-inversion names then written 3Do /
+  5So7, since replaced by the /Zz slash.
 - **Douthett & Steinbach** (1998), "Parsimonious graphs" — the chicken-wire dual;
   **Cohn**, neo-Riemannian P/R/L; **Tymoczko**, "The Generalized Tonnetz" (JMT 2012)
   and *A Geometry of Music* (cited in the chord-naming doc §5.1). **[verified links]**
