@@ -170,7 +170,16 @@ theses: C6 says prescriptions never precede practice (rules trail), yet Guido's
 pedagogy created practice. The resolution: Guido shipped tools, not rules.
 **Rules trail practice; tools lead it.** That is the wager of the JiMS program.
 
-## 7. Reference links used in session
+## 7. Corpus analyses (this repo)
+
+- **`../Analysis/oob_chain_analysis.py`** + **`../Analysis/OOB_RESULTS.md`** —
+  out-of-bounds analysis of the button-field window against 1,170 jazz standards
+  (DCMLab Jazz Harmony Treebank, https://github.com/DCMLab/JazzHarmonyTreebank).
+  Finding: with functional spelling, chord-tone overflow is 75:1 flatward; the
+  optimal jazz window is one column flat of the Re-centred default (So-centred,
+  −7…+9), which gains the subV seventh De and keeps the blue third Ri.
+
+## 8. Reference links used in session
 
 - Open Music Theory, "Modal Mixture" — https://viva.pressbooks.pub/openmusictheory/chapter/modal-mixture/
 - Puget Sound *Music Theory 21st C.*, "Mode Mixture" — https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html
