@@ -11,7 +11,11 @@ One voice. Ten cards. Seventy seconds.
 
 The voiceover **never names anyone and never explains anything**. That is the whole trick of the film we're paying tribute to, and it's why seventeen people fit into a minute there: the narration is a hymn to a *type* of person, and the pictures and name cards carry the who. Draft 1 got this wrong — it gave every innovator an explanatory clause and ran to 2:45. This one runs :70 — ten seconds over the spot we're saluting, because we have ten cards to land — and it gets there by letting the pictures do their share of the work.
 
-Black and white throughout. Archival grain, engravings, plate photography, manuscript, patent linework. **Color arrives exactly once: the last shot.**
+Black and white throughout. Ink, manuscript, plate, patent linework. **Color arrives exactly once: the last shot.**
+
+**No portraits. Not one.** The film shows what these people *made*, animated — the staff being drawn, the lattice turning, the accidentals struck out and new lines sliding in between the old ones, the same shape played in two different places on the button field. A face tells you nothing about what someone figured out; the artifact tells you everything, and it moves. This also means we never hunt for a likeness that may not exist, never clear a photograph, and never ask a living colleague to hand over a headshot.
+
+Each card carries three things: **the name, the date, and the contribution in one line.** The voiceover still explains nobody — the card does the attribution while the animation does the argument, and the narration stays a hymn to the type of person.
 
 ---
 
@@ -89,11 +93,11 @@ No "Learn more." No button. The film already said what to do.
 
 ## Assets
 
-Portraits and plates are public domain for Guido, Newton, Euler, Roualle de Boisgelou, Glover, Wicki, and Schoenberg — engravings, plate photography, manuscript pages. Where no likeness survives, the *work* is the portrait: Guido's staff, Roualle's crossed-out accidentals.
+Everything on screen is drawn and animated by us. There are no photographs, no portraits, no scanned plates, and therefore nothing to source, clear, or credit as an image. Historical documents are reference for our own draughtsmanship, not material to lift — including Schoenberg's Chart of the Regions, which we build from the relationships rather than lifting from *Structural Functions of Harmony*, because ours has to move and to match the film's ink-and-lattice hand anyway.
 
-Bill Sethares, Andy Milne, and Anthony Prechtl are alive and are colleagues. Tell them they're in it before it posts — not for permission, but because it's a nice thing to be told, and because they'll have better source images than we'll find. Same for Werner Schweer and Michael Good.
+Bill Sethares, Andy Milne, and Anthony Prechtl are alive and are colleagues; so are Werner Schweer and Michael Good. Tell them they're in it before it posts — not for permission, and no longer because we need a headshot from them, but because it is a nice thing to be told, and because on the two shots that animate *their* ideas they will spot a wrong detail faster than we will.
 
-Schoenberg's Chart of the Regions: draw our own from the relationships rather than lifting the plate out of *Structural Functions of Harmony* — ours needs to move and to match the film's ink-and-lattice look anyway.
+The animatic (`lift-them-up_animatic.html`) is the reference for every scene. It plays the film at its real timing; treat its drawings as blocking, not final art.
 
 ---
 
