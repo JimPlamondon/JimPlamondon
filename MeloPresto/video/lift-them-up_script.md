@@ -13,7 +13,14 @@ The voiceover **never names anyone and never explains anything**. That is the wh
 
 Black and white throughout. Ink, manuscript, plate, patent linework. **Color arrives exactly once: the last shot.**
 
-**Rule zero: we show our implementation, never theirs.** Every shot depicts the MeloPresto realisation of the invention, not the inventor's original. Guido's card shows the MeloPresto staff with movable-Do — not neumes on four lines, and not *Ut*. Euler's shows the wavu as we draw it. Wicki's shows our button-field. The film is not a museum tour; it is ten people's work arriving in one instrument, so the instrument is what's on screen the whole way through. This is also why the converge at 0:55 lands: by then the audience has been looking at MeloPresto for a minute without being told.
+**Rule zero: we show our implementation, never theirs.** Every shot depicts the MeloPresto realisation of the invention, not the inventor's original. Euler's card shows the wavu as we draw it; Wicki's shows our button-field; Newton's spectrum lands on our solfa. The film is not a museum tour — it is ten people's work arriving in one instrument, so the instrument is what's on screen the whole way through. This is also why the converge at 0:58 lands: by then the audience has been looking at MeloPresto for a minute without being told.
+
+**The one amendment, and it is not an exception so much as the rule's own logic.** Where a later card's contribution *is* an improvement to an earlier card's, the earlier card must show the historical state — otherwise the later card has nothing to be an improvement over, and two distinct contributions collapse into the same picture. The film has exactly two such pairs, and both are staged as before-and-after:
+
+- **Guido → Glover.** Guido's card shows his four-line staff and his six syllables, *Ut Re Mi Fa Sol La*. There is no seventh — neither *si* nor *te* has been invented. Glover's card, twenty-three seconds later, is the fix.
+- **Euler → Schoenberg.** Schoenberg's card does not re-draw anything; it inherits Euler's exact frame and transforms it. The before-state is on screen because it *was* the previous shot.
+
+Everywhere else, rule zero holds without qualification.
 
 **No portraits. Not one.** The film shows what these people *made*, animated — the staff being drawn, the lattice turning, the accidentals struck out and new lines sliding in between the old ones, the same shape played in two different places on the button field. A face tells you nothing about what someone figured out; the artifact tells you everything, and it moves. This also means we never hunt for a likeness that may not exist, never clear a photograph, and never ask a living colleague to hand over a headshot.
 
@@ -29,12 +36,12 @@ Each card carries three things: **the name, the date, and the contribution in on
 |---|---|---|
 | **0:00** | | Black. A nib touches paper and draws one horizontal line, at the speed of a hand. |
 | **0:03** | Here's to the crazy ones. | The line becomes four. Neumes drop onto the staff and lock. |
-| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 |
+| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 — his four lines, the F and C lines marked, and six syllables rising: *Ut Re Mi Fa Sol La*. The card holds on six. There is no seventh. |
 | **0:10** | | **ISAAC NEWTON** · 1704 — a prism, apex up. White light enters; seven bands leave, **all bending toward the base**, red least and violet most, and each lands on a solfa name. Rendered in grey. It aches. |
 | **0:13** | Who looked at a page of music and saw a bad interface. | **LEONHARD EULER** · 1739 — the wavu, **held still**. The tonality moves instead: white notes and their adjacent black notes ripple across the surface, sharpward to flatward down the chain of fifths. |
 | **0:19** | | **ARNOLD SCHOENBERG** · 1954 — the same wavu, transforming. The lines of notes recede; every triangle between them lights and collapses to its own centre, and those centres are the chords. Notes were the corners; the chords are the regions. *Silent — the picture carries this one.* |
 | **0:24** | Who were told the notation was fine, | **ROUALLE DE BOISGELOU** · 1764 — a hand striking out every sharp and flat, then new lines sliding in until every note has a home of its own. |
-| **0:27** | the keyboard was fine, the tuning was settled — and redrew it anyway. | **SARAH GLOVER** · 1835 — the solfa ladder, and the pitch it produces firing on the same beat. No instrument in the room. |
+| **0:27** | the keyboard was fine, the tuning was settled — and redrew it anyway. | **SARAH GLOVER** · 1835 — the ladder, each syllable firing with the pitch it names. By now a seventh exists, and it is *si* — whose initial collides with *soh*. She replaces it with *te*, the collision resolves, and the letter column reads **d r m f s l t**: seven syllables, seven distinct initials, singable by anyone. No instrument in the room. |
 | **0:34** | You can ignore them for a century. You can lose their names. | **KASPAR WICKI** · 1896 — the button-field. **Do, Re, Mi, Fa, Sol, La, Ti light in order**, fast, one after another. Hold on the shape they make. Then the whole shape **slides to a new position on the field** — different key, identical fingering. |
 | **0:43** | The one thing you can't do is un-know what they figured out. | **WILLIAM SETHARES** · 1993 — a spectrum's partials dragged, and the scale re-spacing itself in sympathy. |
 | **0:49** | They made music simpler for people they'd never meet, and asked for nothing back. | **MILNE & PRECHTL** · *Hex Player* — buttons, staff lines and sequencer lanes registering into one grid. |
