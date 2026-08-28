@@ -15,6 +15,8 @@ Black and white throughout. Ink, manuscript, plate, patent linework. **Color arr
 
 **Rule zero: we show our implementation, never theirs.** Every shot depicts the MeloPresto realisation of the invention, not the inventor's original. Euler's card shows the wavu as we draw it; Wicki's shows our button-field; Newton's spectrum lands on our solfa. The film is not a museum tour — it is ten people's work arriving in one instrument, so the instrument is what's on screen the whole way through. This is also why the converge at 0:58 lands: by then the audience has been looking at MeloPresto for a minute without being told.
 
+**A note on captions.** Guido's caption states an *outcome* — what the invention bought its users — where every other caption describes the picture. That is arguably the better register for all eleven, and turning the rest to match is a change worth making deliberately rather than drifting into. Flagged, not done.
+
 **The one amendment, and it is not an exception so much as the rule's own logic.** Where a later card's contribution *is* an improvement to an earlier card's, the earlier card must show the historical state — otherwise the later card has nothing to be an improvement over, and two distinct contributions collapse into the same picture. The film has exactly two such pairs, and both are staged as before-and-after:
 
 - **Guido → Glover.** Guido's card shows his four-line staff and his six syllables, *Ut Re Mi Fa Sol La*. There is no seventh — neither *si* nor *te* has been invented. Glover's card, twenty-three seconds later, is the fix.
@@ -37,7 +39,7 @@ Each card carries three things: **the name, the date, and the contribution in on
 |---|---|---|
 | **0:00** | | Black. A nib touches paper and draws one horizontal line, at the speed of a hand. |
 | **0:03** | Here's to the crazy ones. | The line becomes four. Neumes drop onto the staff and lock. |
-| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 — his four lines, the F and C lines marked, and six syllables rising: *Ut Re Mi Fa Sol La*. The card holds on six. There is no seventh. |
+| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 — his four lines, the F and C lines marked, and six syllables rising: *Ut Re Mi Fa Sol La*. The card holds on six; there is no seventh, and the picture is left to say so. Caption: **"Sight-singing: reduced time-to-competence by 5×–10×."** |
 | **0:10** | | **ISAAC NEWTON** · 1704 — a prism, apex up. White light enters; seven bands leave, **all bending toward the base**, red least and violet most, and each lands on a solfa name. Rendered in grey. It aches. |
 | **0:13** | Who looked at a page of music and saw a bad interface. | **LEONHARD EULER** · 1739 — the wavu, **held still**. The tonality moves instead: white notes and their adjacent black notes ripple across the surface, sharpward to flatward down the chain of fifths. |
 | **0:19** | | **ARNOLD SCHOENBERG** · 1954 — the same wavu, transforming. The lines of notes recede; every triangle between them lights and collapses to its own centre, and those centres are the chords. Notes were the corners; the chords are the regions. *Silent — the picture carries this one.* |
