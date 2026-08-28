@@ -140,7 +140,7 @@ button[aria-pressed="true"]{background:var(--bone);color:var(--black);border-col
 <div class="wrap">
   <div class="masthead">
     <h1>Lift Them Up</h1>
-    <div class="sub">Animatic · <b>:76</b> + end card · draft 3</div>
+    <div class="sub">Animatic · <b>:81</b> + end card · draft 4</div>
   </div>
 
   <div class="screen" id="screen">
@@ -153,10 +153,10 @@ button[aria-pressed="true"]{background:var(--bone);color:var(--black);border-col
     <button id="play">Play</button>
     <button id="back">Restart</button>
     <div class="track" id="track" tabindex="0" role="slider" aria-label="Timeline"
-         aria-valuemin="0" aria-valuemax="86" aria-valuenow="0">
+         aria-valuemin="0" aria-valuemax="90" aria-valuenow="0">
       <div class="rail"></div><div class="fill" id="fill"></div>
     </div>
-    <div class="tc"><b id="now">0:00</b> / 1:26</div>
+    <div class="tc"><b id="now">0:00</b> / 1:30</div>
     <button id="say" aria-pressed="false" title="Reads the narration with your browser's voice, to test pacing">Read aloud</button>
   </div>
 
@@ -166,8 +166,8 @@ button[aria-pressed="true"]{background:var(--bone);color:var(--black);border-col
   </div>
 
   <p class="foot">
-    <b>Black and white until 0:55.</b> Newton's spectrum is drawn in full colour and rendered grey — the film can't see it yet. The filter lifts on the converge and never returns.<br>
-    <b>Timing check.</b> Cards sit on the script's timecodes; voiceover runs at 115&nbsp;wpm, the rate the script is budgeted at. Schoenberg now follows Euler directly and gets a silent beat for the transformation, and Wicki gets time to play Do–Ti and then transpose; the read lands at :76.<br>
+    <b>Black and white until 1:02.</b> Newton's spectrum is drawn in full colour and rendered grey — the film can't see it yet. The filter lifts on the converge and never returns.<br>
+    <b>Timing check.</b> Cards sit on the script's timecodes; voiceover runs at 115&nbsp;wpm, the rate the script is budgeted at. Eleven cards now. Schoenberg gets a silent beat, Wicki plays Do–Ti before transposing, and well-formed scales has its own card; the read lands at :81, up from :70 in draft 2. That is worth a decision.<br>
     <b>The last frame is a placeholder.</b> The real MeloPresto logo lives outside this repo. Paste the master SVG's inner markup into <code>LOGO</code> at the top of the script and both the final frame and the end card switch to it.<br>
     <b>Keys.</b> Space plays and pauses · ← → step five seconds.
   </p>
@@ -193,11 +193,12 @@ const CHROMA = Array.from({length:12},(_,i)=>`hsl(${i*30} 68% 56%)`);
 const SCENES=[
   {t:0,    k:"nib"},      {t:3,    k:"staff"},    {t:10, k:"prism"},
   {t:13.5, k:"lattice"},  {t:19.5, k:"dual"},     {t:24, k:"chromatic"},
-  {t:27.5, k:"school"},   {t:34,   k:"buttons"},  {t:43, k:"partials"},
-  {t:49,   k:"grid"},     {t:55.5, k:"commits"},  {t:58, k:"converge"},
-  {t:65.3, k:"hands"},    {t:70.5, k:"mark"},     {t:77, k:"endcard"}
+  {t:27.5, k:"school"},   {t:34,   k:"buttons"},  {t:42, k:"nesting"},
+  {t:48,   k:"partials"}, {t:53.5, k:"grid"},     {t:60, k:"commits"},
+  {t:62.5, k:"converge"}, {t:69.8, k:"hands"},    {t:75, k:"mark"},
+  {t:81.5, k:"endcard"}
 ];
-const COLOUR_AT=58, RUNTIME=86;
+const COLOUR_AT=62.5, RUNTIME=90;
 
 const CARDS=[
   {a:4,   b:10,   nm:"Guido of Arezzo",     yr:"c. 1025 · solmisation, and the staff to put it on"},
@@ -206,10 +207,11 @@ const CARDS=[
   {a:19.5,b:24,   nm:"Arnold Schoenberg",   yr:"1954 · the Map of the Regions — the wavu's dual"},
   {a:24,  b:27.5, nm:"Roualle de Boisgelou",yr:"1764 · a line for every note"},
   {a:27.5,b:34,   nm:"Sarah Glover",        yr:"1835 · Norwich sol-fa, movable doh"},
-  {a:34,  b:43,   nm:"Kaspar Wicki",        yr:"1896 · the isomorphic note-layout"},
-  {a:43,  b:49,   nm:"William Sethares",    yr:"1993 · tuning and timbre are one argument"},
-  {a:49,  b:55.5, nm:"Milne & Prechtl",     yr:"Hex Player · instrument, page, screen"},
-  {a:55.5,b:58,   nm:"MuseScore · MusicXML",yr:"and every maintainer who gave it away"}
+  {a:34,  b:42,   nm:"Kaspar Wicki",        yr:"1896 · the isomorphic note-layout"},
+  {a:42,  b:48,   nm:"Wilson · Carey · Clampitt", yr:"1975, 1989 · well-formed scales — each nests inside the next"},
+  {a:48,  b:53.5, nm:"William Sethares",    yr:"1993 · tuning and timbre are one argument"},
+  {a:53.5,b:60,   nm:"Milne & Prechtl",     yr:"Hex Player · instrument, page, screen"},
+  {a:60,  b:62.5, nm:"MuseScore · MusicXML",yr:"and every maintainer who gave it away"}
 ];
 
 const VO=[
@@ -219,11 +221,11 @@ const VO=[
   {a:24.2, b:27.4, s:"Who were told the notation was fine,"},
   {a:27.6, b:33.9, s:"the keyboard was fine, the tuning was settled — and redrew it anyway."},
   {a:34.4, b:40.4, s:"You can ignore them for a century. You can lose their names."},
-  {a:43.2, b:49,   s:"The one thing you can't do is un-know what they figured out."},
-  {a:49.4, b:56.4, s:"They made music simpler for people they'd never meet, and asked for nothing back."},
-  {a:58.3, b:64.8, s:"Because the ones crazy enough to redraw music are the ones who redraw it."},
-  {a:65.5, b:70,   s:"Every Melodian sees farther because they lifted us up."},
-  {a:70.8, b:76.3, s:"So pay it forward. Spread the word. Lift somebody up."}
+  {a:42.4, b:48.2, s:"The one thing you can't do is un-know what they figured out."},
+  {a:53.8, b:60.8, s:"They made music simpler for people they'd never meet, and asked for nothing back."},
+  {a:62.8, b:69.3, s:"Because the ones crazy enough to redraw music are the ones who redraw it."},
+  {a:70,   b:74.5, s:"Every Melodian sees farther because they lifted us up."},
+  {a:75.3, b:80.8, s:"So pay it forward. Spread the word. Lift somebody up."}
 ];
 
 /* ── scene construction (procedural, so no hand-authored path data) ─────── */
@@ -419,6 +421,31 @@ build.dual=s=>{
   });
   txt(s,150,500,"the notes were the corners · the chords are the regions",
     {"font-family":"IBM Plex Mono,monospace","font-size":12,fill:DIM,"letter-spacing":2});
+};
+build.nesting=s=>{
+  /* Continues straight out of Wicki's field: the same buttons, now showing
+     WHY that layout. Pentatonic, diatonic, chromatic — each strictly
+     contains the last, so buttons are only ever added, never moved. */
+  const PENT=new Set([0,2,4,7,9]), DIA=new Set([0,2,4,5,7,9,11]);
+  const pc=(r,c)=>((2*c+7*r-9)%12+12)%12;
+  const cells=[];
+  for(let r=0;r<5;r++)for(let c=-2;c<=8;c++){
+    el(s,"circle",{cx:bx(r,c),cy:by(r),r:19,fill:"none",stroke:DIM,"stroke-width":1.1});
+    cells.push({r,c,p:pc(r,c)});
+  }
+  const stage=q=>q===0?0.4:q===1?2.5:4.4;
+  cells.forEach(k=>{
+    const q=PENT.has(k.p)?0:DIA.has(k.p)?1:2;
+    el(s,"circle",{cx:bx(k.r,k.c),cy:by(k.r),r:19,fill:INK,opacity:0,class:"anim",
+      style:`animation:pop .4s ease ${stage(q)+((k.c+2)*.035)}s forwards`});
+  });
+  [["pentatonic 5",0],["diatonic 7",1],["chromatic 12",2]].forEach(([n,q],i)=>{
+    txt(s,150+i*250,502,n,{"font-family":"IBM Plex Mono,monospace",
+      "font-size":13,fill:GREY,"letter-spacing":2,opacity:0,class:"anim",
+      style:`animation:fade .5s ease ${stage(q)+.5}s forwards`});
+  });
+  txt(s,830,112,"nothing moves · notes are only added",{"text-anchor":"end",
+    "font-family":"IBM Plex Mono,monospace","font-size":12,fill:DIM,"letter-spacing":2});
 };
 build.partials=s=>{
   /* One argument heard twice: each partial and the scale-step it justifies

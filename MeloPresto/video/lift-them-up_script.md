@@ -1,15 +1,15 @@
 # "LIFT THEM UP"
 
-**A MeloPresto film.** :76
-Draft 3.
+**A MeloPresto film.** :81
+Draft 4.
 
 ---
 
 ## The form
 
-One voice. Ten cards. Seventy-six seconds.
+One voice. Eleven cards. Eighty-one seconds.
 
-The voiceover **never names anyone and never explains anything**. That is the whole trick of the film we're paying tribute to, and it's why seventeen people fit into a minute there: the narration is a hymn to a *type* of person, and the pictures and name cards carry the who. Draft 1 got this wrong — it gave every innovator an explanatory clause and ran to 2:45. This one runs :76 — over the spot we're saluting, because we have ten cards to land, and because two of them earn their own time: Schoenberg's transformation plays silent, and Wicki needs to play a scale before he can transpose it.
+The voiceover **never names anyone and never explains anything**. That is the whole trick of the film we're paying tribute to, and it's why seventeen people fit into a minute there: the narration is a hymn to a *type* of person, and the pictures and name cards carry the who. Draft 1 got this wrong — it gave every innovator an explanatory clause and ran to 2:45. This one runs :81. That is eleven seconds past draft 2 and worth a decision: Schoenberg's transformation plays silent, Wicki needs to play a scale before he can transpose it, and well-formed scales now has a card of its own. If :81 is too long, the cheapest cut is Sethares — his idea survives in Newton's spectrum and in the tuning line of the voiceover — and that returns us to :76 with ten cards.
 
 Black and white throughout. Ink, manuscript, plate, patent linework. **Color arrives exactly once: the last shot.**
 
@@ -19,6 +19,7 @@ Black and white throughout. Ink, manuscript, plate, patent linework. **Color arr
 
 - **Guido → Glover.** Guido's card shows his four-line staff and his six syllables, *Ut Re Mi Fa Sol La*. There is no seventh — neither *si* nor *te* has been invented. Glover's card, twenty-three seconds later, is the fix.
 - **Euler → Schoenberg.** Schoenberg's card does not re-draw anything; it inherits Euler's exact frame and transforms it. The before-state is on screen because it *was* the previous shot.
+- **Wicki → Wilson/Carey/Clampitt.** Same again, and for the same reason. Wicki's card gives the layout; the next card keeps his exact button-field and shows *why that layout* — the well-formed scales nesting inside one another with nothing ever moving. Two cards, one continuous image, one argument.
 
 Everywhere else, rule zero holds without qualification.
 
@@ -43,12 +44,13 @@ Each card carries three things: **the name, the date, and the contribution in on
 | **0:24** | Who were told the notation was fine, | **ROUALLE DE BOISGELOU** · 1764 — a hand striking out every sharp and flat, then new lines sliding in until every note has a home of its own. |
 | **0:27** | the keyboard was fine, the tuning was settled — and redrew it anyway. | **SARAH GLOVER** · 1835 — the ladder, each syllable firing with the pitch it names. By now a seventh exists, and it is *si* — whose initial collides with *soh*. She replaces it with *te*, the collision resolves, and the letter column reads **d r m f s l t**: seven syllables, seven distinct initials, singable by anyone. No instrument in the room. |
 | **0:34** | You can ignore them for a century. You can lose their names. | **KASPAR WICKI** · 1896 — the button-field. **Do, Re, Mi, Fa, Sol, La, Ti light in order**, fast, one after another. Hold on the shape they make. Then the whole shape **slides to a new position on the field** — different key, identical fingering. |
-| **0:43** | The one thing you can't do is un-know what they figured out. | **WILLIAM SETHARES** · 1993 — a spectrum's partials dragged, and the scale re-spacing itself in sympathy. |
-| **0:49** | They made music simpler for people they'd never meet, and asked for nothing back. | **MILNE & PRECHTL** · *Hex Player* — buttons, staff lines and sequencer lanes registering into one grid. |
-| **0:55** | | **MUSESCORE · MUSICXML · EVERY MAINTAINER WHO GAVE IT AWAY** — commit logs, usernames, a contributor graph filling in. |
-| **0:58** | Because the ones crazy enough to redraw music are the ones who redraw it. | The ten images converge and resolve into a single MeloPresto score. **COLOR FLOODS IN** — and stays. |
-| **1:05** | Every Melodian sees farther because they lifted us up. | Hands begin to play that score. Someone watching over the shoulder reaches in and plays it too — right, first try. |
-| **1:10** | So pay it forward. Spread the word. Lift somebody up. | **the MeloPresto logo** |
+| **0:42** | The one thing you can't do is un-know what they figured out. | **WILSON · CAREY · CLAMPITT** · 1975, 1989 — Wicki's field stays on screen. The pentatonic lights, five buttons. Then the diatonic: the same five, plus two. Then the chromatic: the same seven, plus five. **Nothing ever moves.** This is the shot that explains why *that* layout and not another one. |
+| **0:48** | | **WILLIAM SETHARES** · 1993 — a spectrum's partials dragged, and the scale re-spacing itself in sympathy. |
+| **0:53** | They made music simpler for people they'd never meet, and asked for nothing back. | **MILNE & PRECHTL** · *Hex Player* — buttons, staff lines and sequencer lanes registering into one grid. |
+| **1:00** | | **MUSESCORE · MUSICXML · EVERY MAINTAINER WHO GAVE IT AWAY** — commit logs, usernames, a contributor graph filling in. |
+| **1:02** | Because the ones crazy enough to redraw music are the ones who redraw it. | The ten images converge and resolve into a single MeloPresto score. **COLOR FLOODS IN** — and stays. |
+| **1:10** | Every Melodian sees farther because they lifted us up. | Hands begin to play that score. Someone watching over the shoulder reaches in and plays it too — right, first try. |
+| **1:15** | So pay it forward. Spread the word. Lift somebody up. | **the MeloPresto logo** |
 
 ---
 
