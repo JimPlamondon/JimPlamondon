@@ -1,17 +1,19 @@
 # "LIFT THEM UP"
 
-**A MeloPresto film.** :70
-Draft 2.
+**A MeloPresto film.** :76
+Draft 3.
 
 ---
 
 ## The form
 
-One voice. Ten cards. Seventy seconds.
+One voice. Ten cards. Seventy-six seconds.
 
-The voiceover **never names anyone and never explains anything**. That is the whole trick of the film we're paying tribute to, and it's why seventeen people fit into a minute there: the narration is a hymn to a *type* of person, and the pictures and name cards carry the who. Draft 1 got this wrong — it gave every innovator an explanatory clause and ran to 2:45. This one runs :70 — ten seconds over the spot we're saluting, because we have ten cards to land — and it gets there by letting the pictures do their share of the work.
+The voiceover **never names anyone and never explains anything**. That is the whole trick of the film we're paying tribute to, and it's why seventeen people fit into a minute there: the narration is a hymn to a *type* of person, and the pictures and name cards carry the who. Draft 1 got this wrong — it gave every innovator an explanatory clause and ran to 2:45. This one runs :76 — over the spot we're saluting, because we have ten cards to land, and because two of them earn their own time: Schoenberg's transformation plays silent, and Wicki needs to play a scale before he can transpose it.
 
 Black and white throughout. Ink, manuscript, plate, patent linework. **Color arrives exactly once: the last shot.**
+
+**Rule zero: we show our implementation, never theirs.** Every shot depicts the MeloPresto realisation of the invention, not the inventor's original. Guido's card shows the MeloPresto staff with movable-Do — not neumes on four lines, and not *Ut*. Euler's shows the wavu as we draw it. Wicki's shows our button-field. The film is not a museum tour; it is ten people's work arriving in one instrument, so the instrument is what's on screen the whole way through. This is also why the converge at 0:55 lands: by then the audience has been looking at MeloPresto for a minute without being told.
 
 **No portraits. Not one.** The film shows what these people *made*, animated — the staff being drawn, the lattice turning, the accidentals struck out and new lines sliding in between the old ones, the same shape played in two different places on the button field. A face tells you nothing about what someone figured out; the artifact tells you everything, and it moves. This also means we never hunt for a likeness that may not exist, never clear a photograph, and never ask a living colleague to hand over a headshot.
 
@@ -21,23 +23,25 @@ Each card carries three things: **the name, the date, and the contribution in on
 
 ## The script
 
+**Card order is chronological except for Schoenberg, who follows Euler directly** — his Map is the wavu's dual, so the two shots are one continuous transformation of a single image and cannot be separated by five other cards.
+
 | | VO | ON SCREEN |
 |---|---|---|
 | **0:00** | | Black. A nib touches paper and draws one horizontal line, at the speed of a hand. |
 | **0:03** | Here's to the crazy ones. | The line becomes four. Neumes drop onto the staff and lock. |
 | **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 |
-| **0:10** | | **ISAAC NEWTON** · 1704 — a prism throwing a spectrum, in grey. Seven bands, no color. It aches. |
-| **0:13** | Who looked at a page of music and saw a bad interface. | **LEONHARD EULER** · 1739 — a lattice of pitches, drawn in ink, turning. |
-| **0:18** | Who were told the notation was fine, | **ROUALLE DE BOISGELOU** · 1764 — a hand striking out every sharp and flat, then new lines sliding in until every note has a home of its own. |
-| **0:22** | the keyboard was fine, the tuning was settled — and redrew it anyway. | **SARAH GLOVER** · 1835 — a schoolroom, chalk, children's mouths open in rhythm. No instrument in the room. |
-| **0:29** | You can ignore them for a century. You can lose their names. | **KASPAR WICKI** · 1896 — patent linework, then a hand playing a shape, moving somewhere else entirely, playing the identical shape. |
-| **0:36** | | **ARNOLD SCHOENBERG** · 1954 — Euler's lattice returns; the triangles between the pitches collapse to points, and a map of *notes* becomes a map of *keys*. |
-| **0:40** | The one thing you can't do is un-know what they figured out. | **WILLIAM SETHARES** · 1993 — a spectrum's partials dragged, and the scale re-spacing itself in sympathy. |
-| **0:46** | They made music simpler for people they'd never meet, and asked for nothing back. | **MILNE & PRECHTL** · *Hex Player* — buttons, staff lines and sequencer lanes sliding together into one grid. |
-| **0:52** | | **MUSESCORE · MUSICXML · EVERY MAINTAINER WHO GAVE IT AWAY** — commit logs, usernames, a contributor graph filling in. |
-| **0:55** | Because the ones crazy enough to redraw music are the ones who redraw it. | The ten images converge and resolve into a single MeloPresto score. **COLOR FLOODS IN** — and stays. |
-| **1:01** | Every Melodian sees farther because they lifted us up. | Hands begin to play that score. Someone watching over the shoulder reaches in and plays it too — right, first try. |
-| **1:06** | So pay it forward. Spread the word. Lift somebody up. | **MeloPresto** |
+| **0:10** | | **ISAAC NEWTON** · 1704 — a prism, apex up. White light enters; seven bands leave, **all bending toward the base**, red least and violet most, and each lands on a solfa name. Rendered in grey. It aches. |
+| **0:13** | Who looked at a page of music and saw a bad interface. | **LEONHARD EULER** · 1739 — the wavu, **held still**. The tonality moves instead: white notes and their adjacent black notes ripple across the surface, sharpward to flatward down the chain of fifths. |
+| **0:19** | | **ARNOLD SCHOENBERG** · 1954 — the same wavu, transforming. The lines of notes recede; every triangle between them lights and collapses to its own centre, and those centres are the chords. Notes were the corners; the chords are the regions. *Silent — the picture carries this one.* |
+| **0:24** | Who were told the notation was fine, | **ROUALLE DE BOISGELOU** · 1764 — a hand striking out every sharp and flat, then new lines sliding in until every note has a home of its own. |
+| **0:27** | the keyboard was fine, the tuning was settled — and redrew it anyway. | **SARAH GLOVER** · 1835 — the solfa ladder, and the pitch it produces firing on the same beat. No instrument in the room. |
+| **0:34** | You can ignore them for a century. You can lose their names. | **KASPAR WICKI** · 1896 — the button-field. **Do, Re, Mi, Fa, Sol, La, Ti light in order**, fast, one after another. Hold on the shape they make. Then the whole shape **slides to a new position on the field** — different key, identical fingering. |
+| **0:43** | The one thing you can't do is un-know what they figured out. | **WILLIAM SETHARES** · 1993 — a spectrum's partials dragged, and the scale re-spacing itself in sympathy. |
+| **0:49** | They made music simpler for people they'd never meet, and asked for nothing back. | **MILNE & PRECHTL** · *Hex Player* — buttons, staff lines and sequencer lanes registering into one grid. |
+| **0:55** | | **MUSESCORE · MUSICXML · EVERY MAINTAINER WHO GAVE IT AWAY** — commit logs, usernames, a contributor graph filling in. |
+| **0:58** | Because the ones crazy enough to redraw music are the ones who redraw it. | The ten images converge and resolve into a single MeloPresto score. **COLOR FLOODS IN** — and stays. |
+| **1:05** | Every Melodian sees farther because they lifted us up. | Hands begin to play that score. Someone watching over the shoulder reaches in and plays it too — right, first try. |
+| **1:10** | So pay it forward. Spread the word. Lift somebody up. | **the MeloPresto logo** |
 
 ---
 
@@ -104,6 +108,10 @@ Everything on screen is drawn and animated by us. There are no photographs, no p
 Bill Sethares, Andy Milne, and Anthony Prechtl are alive and are colleagues; so are Werner Schweer and Michael Good. Tell them they're in it before it posts — not for permission, and no longer because we need a headshot from them, but because it is a nice thing to be told, and because on the two shots that animate *their* ideas they will spot a wrong detail faster than we will.
 
 The animatic (`lift-them-up_animatic.html`) is the reference for every scene. It plays the film at its real timing; treat its drawings as blocking, not final art.
+
+Two things the animatic deliberately does not attempt, for final art to get right:
+- **WHOBAWI buttons.** The animatic draws plain circles. The real field uses the eye-shaped button geometry with extensions along the M5 and m4 axes (`Nomenclature.md` §"WHOBAWI"). I did not want to invent that shape from a prose description.
+- **Shaped noteheads.** The MeloPresto staff distinguishes accidental class by notehead shape — naturals conventional, sharp-wise triangles, flat-wise rotated, double accidentals square. The animatic uses plain ellipses throughout.
 
 ---
 
