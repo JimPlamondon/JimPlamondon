@@ -83,7 +83,13 @@ If that shot works, the film needs no argument. If it doesn't work, no argument 
 
 ## End card
 
-MeloPresto wordmark, in color, on black. Held.
+**The MeloPresto logo**, in color, on black. Held.
+
+The master lives at `JiMS/Assets/MeloPresto/` — outside the repo, so nothing in the animatic is the real thing; its last frame is set type, labelled placeholder, and is not a design proposal. Three things to settle when the file lands:
+
+1. **Which master.** Wordmark, standalone mark, horizontal lockup, or stacked lockup. A final frame held for fifteen seconds usually wants the stacked lockup; the horizontal one wants more width than a held end card gives it.
+2. **What colour it is.** This matters more here than on any other asset we make. The film's entire structure is *colour arrives exactly once, and it arrives at the end* — so whatever colour that logo is becomes the payoff of seventy seconds of black and white. If the mark is a single brand colour (the Lomekuna mark was brass, `#A8813A`), then the payoff is that colour, not a spectrum, and Newton's grey prism pays off in the **score** at 0:55 rather than in the logo. That's the cleaner reading anyway: the score blooms chromatic and settles Newton's debt, then the logo lands in its own colour and settles the film's.
+3. **Clear space and minimum size.** Whatever the brand rules say; the end card should be nowhere near either limit.
 
 > *Guido · Newton · Euler · Roualle de Boisgelou · Glover · Wicki · Schoenberg · Sethares · Milne · Prechtl — and everyone who wrote it down and gave it away.*
 

@@ -168,6 +168,7 @@ button[aria-pressed="true"]{background:var(--bone);color:var(--black);border-col
   <p class="foot">
     <b>Black and white until 0:55.</b> Newton's spectrum is drawn in full colour and rendered grey — the film can't see it yet. The filter lifts on the converge and never returns.<br>
     <b>Timing check.</b> Cards sit on the script's timecodes; voiceover runs at 115&nbsp;wpm, the rate the script is budgeted at. The read lands at :73, three seconds over the script's :70 — trim on the Glover line if that matters.<br>
+    <b>The last frame is a placeholder.</b> The real MeloPresto logo lives outside this repo. Paste the master SVG's inner markup into <code>LOGO</code> at the top of the script and both the final frame and the end card switch to it.<br>
     <b>Keys.</b> Space plays and pauses · ← → step five seconds.
   </p>
 </div>
@@ -175,6 +176,15 @@ button[aria-pressed="true"]{background:var(--bone);color:var(--black);border-col
 <script>
 (function(){
 "use strict";
+
+/* ── THE REAL LOGO GOES HERE ─────────────────────────────────────────────
+   Paste the inner markup of the MeloPresto master SVG (everything between
+   its <svg> tags) as this string, and set LOGO_VB to that file's viewBox.
+   Both the final frame and the end card switch to it automatically; the
+   typographic wordmark below is a PLACEHOLDER and is not a design proposal.
+   Lives at JiMS/Assets/MeloPresto/ on Jim's machine — outside git. */
+const LOGO = null;
+const LOGO_VB = "0 0 1000 300";
 
 const SPECTRUM = ["#D93A2B","#E2751F","#E3B417","#5FA83C","#2F86C4","#3B4FA8","#7A3FA0"];
 const CHROMA = Array.from({length:12},(_,i)=>`hsl(${i*30} 68% 56%)`);
@@ -430,21 +440,32 @@ build.hands=s=>{
   txt(s,480,510,"second player · first try",{"text-anchor":"middle",
     "font-family":"IBM Plex Mono,monospace","font-size":12,fill:DIM,"letter-spacing":3});
 };
+function placeLogo(s,y,w){
+  /* real master when we have it; honest placeholder when we don't */
+  if(LOGO){
+    const vb=LOGO_VB.split(/\s+/).map(Number), sc=w/vb[2];
+    const g=el(s,"g",{transform:`translate(${480-w/2} ${y}) scale(${sc})`});
+    g.innerHTML=LOGO; return true;
+  }
+  txt(s,480,y+66,"MeloPresto",{"text-anchor":"middle","font-family":"Barlow Condensed,sans-serif",
+    "font-size":w/6.3,fill:INK,"letter-spacing":6});
+  txt(s,480,y+96,"placeholder — real logo pending",{"text-anchor":"middle",
+    "font-family":"IBM Plex Mono,monospace","font-size":11,fill:DIM,"letter-spacing":3});
+  return false;
+}
 build.mark=s=>{
-  txt(s,480,262,"MeloPresto",{"text-anchor":"middle","font-family":"Barlow Condensed,sans-serif",
-    "font-size":76,fill:INK,"letter-spacing":6});
-  CHROMA.forEach((c,i)=>el(s,"rect",{x:300+i*30,y:300,width:22,height:5,fill:c,opacity:0,
-    class:"anim",style:`animation:fade .5s ease ${.5+i*.07}s forwards`}));
-  txt(s,480,368,"Lift them up.",{"text-anchor":"middle","font-family":"EB Garamond,serif",
+  const real=placeLogo(s,196,480);
+  if(!real)CHROMA.forEach((c,i)=>el(s,"rect",{x:300+i*30,y:316,width:22,height:5,fill:c,
+    opacity:0,class:"anim",style:`animation:fade .5s ease ${.5+i*.07}s forwards`}));
+  txt(s,480,394,"Lift them up.",{"text-anchor":"middle","font-family":"EB Garamond,serif",
     "font-size":27,fill:GREY,"font-style":"italic"});
 };
 build.endcard=s=>{
-  txt(s,480,232,"MeloPresto",{"text-anchor":"middle","font-family":"Barlow Condensed,sans-serif",
-    "font-size":50,fill:INK,"letter-spacing":5});
+  placeLogo(s,150,300);
   const line="Guido · Newton · Euler · Roualle de Boisgelou · Glover · Wicki";
   const line2="Schoenberg · Sethares · Milne · Prechtl";
   const line3="and everyone who wrote it down and gave it away";
-  [line,line2,line3].forEach((l,i)=>txt(s,480,300+i*32,l,{"text-anchor":"middle",
+  [line,line2,line3].forEach((l,i)=>txt(s,480,318+i*32,l,{"text-anchor":"middle",
     "font-family":"EB Garamond,serif","font-size":i===2?17:19,
     fill:i===2?DIM:GREY,"font-style":"italic"}));
 };
