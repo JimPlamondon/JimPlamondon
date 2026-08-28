@@ -120,6 +120,15 @@ Bill Sethares, Andy Milne, and Anthony Prechtl are alive and are colleagues; so 
 
 The animatic (`lift-them-up_animatic.html`) is the reference for every scene. It plays the film at its real timing; treat its drawings as blocking, not final art.
 
+**Staff geometry — and a contradiction in the spec.** Note placement now follows `Specs/JiMStudent_Spec.md` §3.3, but that section gives two incompatible rules and someone has to rule between them:
+
+- The **"Staff locations"** bullet says lines fall every 200 cents, seven per octave, putting *Do, Re, Mi* on lines and *Fa, So, La, Ti* on spaces.
+- The **"Drawn staff lines"** bullet — marked *canonical, owner ruling 2026-08-14* — says lines sit at exact JI ratios coloured by prime limit, and that **every diatonic note of the syntonic scale sits on a line**, with chromatic notes falling between. That is eight lines per octave, not seven, and unequal spacing rather than every 200 cents.
+
+Those cannot both be true. The animatic follows the second, because it is later and explicitly canonical: solid Do-lines at the period boundaries, dashed 3-limit lines at 9/8, 4/3, 3/2 and 5-limit lines at 5/4, 5/3, 15/8, with the 7- and 11-limit lines absent because the spec says they hide at exactly 12-TET. Noteheads sit at 12-TET cents, so they ride a few cents off their JI lines — which is the point of a tuning-independent scaffold. **If the first bullet is the one you actually want, say so and I will flip it; and either way §3.3 needs one of the two bullets rewritten.**
+
+**Colour on the staff.** The documented colour system is the N-limit line scaffold — red Do-lines, violet 3-limit, green 5-limit — not coloured noteheads. I could find no support in the spec for colouring noteheads by pitch class, so the animatic no longer does it: the lines carry the colour and the noteheads stay ink. This makes the turn at 1:02 better than it was, because what blooms is the staff's own meaning rather than decoration. But it leaves Newton's card claiming "colour mapped onto the notes," which the spec does not describe. Worth reconciling.
+
 Two things the animatic deliberately does not attempt, for final art to get right:
 - **WHOBAWI buttons.** The animatic draws plain circles. The real field uses the eye-shaped button geometry with extensions along the M5 and m4 axes (`Nomenclature.md` §"WHOBAWI"). I did not want to invent that shape from a prose description.
 - **Shaped noteheads.** The MeloPresto staff distinguishes accidental class by notehead shape — naturals conventional, sharp-wise triangles, flat-wise rotated, double accidentals square. The animatic uses plain ellipses throughout.

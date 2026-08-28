@@ -257,7 +257,7 @@ build.staff=s=>{
     "font-family":"EB Garamond,serif","font-size":20,fill:GREY,opacity:0,class:"anim",
     style:`animation:fade .5s ease ${.8+i*.15}s forwards`}));
   ["Ut","Re","Mi","Fa","Sol","La"].forEach((n,i)=>{
-    el(s,"rect",{x:236+i*96,y:337-i*17,width:15,height:11,fill:INK,opacity:0,
+    el(s,"rect",{x:236+i*96,y:314.5-i*17,width:15,height:11,fill:INK,opacity:0,
       class:"anim",style:`animation:pop .45s ease ${1.1+i*.22}s forwards`});
     txt(s,243+i*96,398,n,{"text-anchor":"middle","font-family":"EB Garamond,serif",
       "font-size":20,fill:GREY,opacity:0,class:"anim",
@@ -341,12 +341,14 @@ build.school=s=>{
      but it is "si", and its initial collides with "sol". Glover's fix is
      the one this whole film is about: she found a bad interface. */
   const SYL=["doh","ray","me","fah","soh","lah","si"], INI=["d","r","m","f","s","l","s"];
+  const DIA_CENTS=[0,200,400,500,700,900,1100];   /* 12-TET, on the JiMS staff */
+  jimsStaff(s,450,860);
   SYL.forEach((n,i)=>{
     const y=396-i*44;
     txt(s,300,y,n,{"text-anchor":"end","font-family":"EB Garamond,serif","font-size":25,
       fill:INK,opacity:0,class:"anim",style:`animation:fade .4s ease ${i*.3}s forwards`});
     el(s,"line",{x1:318,y1:y-8,x2:392,y2:y-8,stroke:DIM,"stroke-width":1});
-    el(s,"ellipse",{cx:480+i*54,cy:388-i*30,rx:11,ry:8.5,fill:INK,opacity:0,
+    el(s,"ellipse",{cx:474+i*52,cy:yAt(DIA_CENTS[i]),rx:11,ry:8.5,fill:INK,opacity:0,
       class:"anim",style:`animation:pop .4s ease ${i*.3+.06}s forwards`});
     if(i<6)txt(s,352,y,INI[i],{"text-anchor":"middle","font-family":"IBM Plex Mono,monospace",
       "font-size":21,fill:GREY,opacity:0,class:"anim",style:`animation:fade .4s ease ${i*.3+.1}s forwards`});
@@ -509,23 +511,42 @@ build.commits=s=>{
       {"font-family":"IBM Plex Mono,monospace","font-size":14,fill:DIM});
   }
 };
-function scoreInto(s,coloured){
-  [200,228,256,284,312,340].forEach(y=>el(s,"line",{x1:150,y1:y,x2:810,y2:y,
-    stroke:coloured?"#3A3835":DIM,"stroke-width":1}));
+/* ── The JiMS staff, per Specs/JiMStudent_Spec.md 3.3 ────────────────────
+   Canonical N-limit scaffold (owner ruling 2026-08-14): solid red Do-lines
+   at the period boundaries; between them, dashed lines at exact JI ratios
+   coloured by prime limit — 3-limit violet, 5-limit green. The 7- and
+   11-limit lines hide at exactly 12-TET, so they are absent here.
+   Every diatonic note sits on a line; chromatic notes fall between lines.
+   Colours are in the markup and render grey until the film turns. */
+const CPX=0.145;                                  /* px per cent */
+const DO_Y=404;                                   /* the lower Do-line */
+const LINES=[                                     /* cents, prime limit */
+  {c:0,      k:"do"},   {c:203.91, k:3}, {c:386.31, k:5}, {c:498.04, k:3},
+  {c:701.96, k:3},      {c:884.36, k:5}, {c:1088.27,k:5}, {c:1200, k:"do"}
+];
+const LIMIT_COLOUR={do:"#C4342B",3:"#7A4FB0",5:"#3F8E4A"};
+const yAt=cents=>DO_Y-cents*CPX;
+function jimsStaff(s,x1,x2){
+  LINES.forEach(L=>el(s,"line",{x1,y1:yAt(L.c),x2,y2:yAt(L.c),
+    stroke:LIMIT_COLOUR[L.k],"stroke-width":L.k==="do"?2:1.1,
+    "stroke-dasharray":L.k==="do"?"":"7 6"}));
+}
+function scoreInto(s){
+  jimsStaff(s,150,830);
+  /* Do-mode naturals only, so every notehead is the default shape */
   const seq=[0,4,7,11,2,9,5,0,7,4];
-  seq.forEach((n,i)=>el(s,"ellipse",{cx:200+i*64,cy:344-n*12,rx:13,ry:9.5,
-    fill:coloured?CHROMA[n]:INK,opacity:0,class:"anim",
-    style:`animation:pop .5s ease ${i*.14}s forwards`}));
+  seq.forEach((n,i)=>el(s,"ellipse",{cx:200+i*66,cy:yAt(n*100),rx:13,ry:9.5,
+    fill:INK,opacity:0,class:"anim",style:`animation:pop .5s ease ${i*.14}s forwards`}));
 }
 build.converge=s=>{
-  scoreInto(s,true);
+  scoreInto(s);
   txt(s,480,450,"MeloPresto",{"text-anchor":"middle","font-family":"Barlow Condensed,sans-serif",
     "font-size":26,fill:INK,"letter-spacing":10,opacity:0,class:"anim",
     style:"animation:fade 1.4s ease 2.6s forwards"});
 };
 build.hands=s=>{
-  scoreInto(s,true);
-  el(s,"line",{x1:200,y1:180,x2:200,y2:360,stroke:INK,"stroke-width":2,class:"anim",
+  scoreInto(s);
+  el(s,"line",{x1:200,y1:196,x2:200,y2:412,stroke:INK,"stroke-width":2,class:"anim",
     style:"animation:playhead 5.6s linear forwards"});
   [[318,414],[596,414]].forEach((h,i)=>{
     const g=el(s,"g",{opacity:0,class:"anim",style:`animation:fade .9s ease ${i*2.6}s forwards`});
