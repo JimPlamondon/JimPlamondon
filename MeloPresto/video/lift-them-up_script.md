@@ -19,7 +19,10 @@ Black and white throughout. Ink, manuscript, plate, patent linework. **Color arr
 
 **The one amendment, and it is not an exception so much as the rule's own logic.** Where a later card's contribution *is* an improvement to an earlier card's, the earlier card must show the historical state — otherwise the later card has nothing to be an improvement over, and two distinct contributions collapse into the same picture. The film has exactly two such pairs, and both are staged as before-and-after:
 
-- **Guido → Glover.** Guido's card shows his four-line staff and his six syllables, *Ut Re Mi Fa Sol La*. There is no seventh — neither *si* nor *te* has been invented. Glover's card, twenty-three seconds later, is the fix.
+- **Guido → Glover.** Guido's card shows his own staff, built to his own specification, and his six syllables. There is no seventh — neither *si* nor *te* has been invented. Glover's card, twenty-three seconds later, is the fix. Three details there are deliberate and worth not "correcting" later:
+  - **Lines a third apart, C E G B.** Not our 200-cent spacing and not the modern five-line staff. The whole point of the shot is that this is *his* geometry.
+  - **The natural hexachord on C.** Chosen because it contains no B at all, so no B-durum / B-molle mutation has to be explained in six seconds. A staff carrying an F line would take Guido's red one; ours carries only the yellow C line, and final art should colour it — it will read as a tonal difference in the monochrome film, which is exactly what a colour line is for.
+  - **Puncta, not noteheads.** Square notation is a century or more after Guido. The marks are diamonds.
 - **Euler → Schoenberg.** Schoenberg's card does not re-draw anything; it inherits Euler's exact frame and transforms it. The before-state is on screen because it *was* the previous shot.
 - **Wicki → Wilson/Carey/Clampitt.** Same again, and for the same reason. Wicki's card gives the layout; the next card keeps his exact button-field and shows *why that layout* — the well-formed scales nesting inside one another with nothing ever moving. Two cards, one continuous image, one argument.
 
@@ -39,7 +42,7 @@ Each card carries three things: **the name, the date, and the contribution in on
 |---|---|---|
 | **0:00** | | Black. A nib touches paper and draws one horizontal line, at the speed of a hand. |
 | **0:03** | Here's to the crazy ones. | The line becomes four. Neumes drop onto the staff and lock. |
-| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 — his four lines, the F and C lines marked, and six syllables rising: *Ut Re Mi Fa Sol La*. The card holds on six; there is no seventh, and the picture is left to say so. Caption: **"Sight-singing: reduced time-to-competence by 5×–10×."** |
+| **0:04** | The monks. The schoolmistresses. The patent clerks. The ones who wouldn't leave music alone. | **GUIDO OF AREZZO** · c. 1025 — **his** staff, drawn as he specified it. Four lines a *third* apart — C, E, G, B from the bottom — with the C line carrying his colour and his *littera clavis*. Six puncta rise through line and space: *Ut Re Mi Fa Sol La*. The card holds on six; there is no seventh, and the picture is left to say so. Caption: **"Sight-singing: reduced time-to-competence by 5×–10×."** |
 | **0:10** | | **ISAAC NEWTON** · 1704 — a prism, apex up. White light enters; seven bands leave, **all bending toward the base**, red least and violet most, and each lands on a solfa name. Rendered in grey. It aches. |
 | **0:13** | Who looked at a page of music and saw a bad interface. | **LEONHARD EULER** · 1739 — the wavu, **held still**. The tonality moves instead: white notes and their adjacent black notes ripple across the surface, sharpward to flatward down the chain of fifths. |
 | **0:19** | | **ARNOLD SCHOENBERG** · 1954 — the same wavu, transforming. The lines of notes recede; every triangle between them lights and collapses to its own centre, and those centres are the chords. Notes were the corners; the chords are the regions. *Silent — the picture carries this one.* |

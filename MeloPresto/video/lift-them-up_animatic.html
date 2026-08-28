@@ -246,20 +246,24 @@ build.nib=s=>{
     style:"animation:draw 2.6s ease-out .3s forwards"});
 };
 build.staff=s=>{
-  /* RULE 0 EXCEPTION — Guido and Glover are a before-and-after pair, so this
-     card shows the historical state or her card has nothing to improve on.
-     Four lines. Six syllables. No seventh exists yet, in any spelling. */
-  const Y=[218,252,286,320];
-  Y.forEach((y,i)=>el(s,"line",{x1:170,y1:y,x2:800,y2:y,stroke:INK,
-    "stroke-width":i===1||i===3?2:1.2,opacity:0,class:"anim",
-    style:`animation:fade .5s ease ${i*.18}s forwards`}));
-  [["C",252],["F",320]].forEach(([n,y],i)=>txt(s,150,y+6,n,{"text-anchor":"middle",
-    "font-family":"EB Garamond,serif","font-size":20,fill:GREY,opacity:0,class:"anim",
-    style:`animation:fade .5s ease ${.8+i*.15}s forwards`}));
+  /* Guido's own staff, as he specified it — not a MeloPresto stand-in.
+     Four lines a THIRD apart: C E G B from the bottom. The C line carries
+     his colour (yellow) and his littera clavis. The natural hexachord on C
+     is used deliberately: it contains no B, so no B-durum/B-molle mutation
+     has to be explained in six seconds. Marks are puncta, not noteheads —
+     square notation is still a century away. */
+  const LINE_Y=[320,286,252,218];                 /* C, E, G, B */
+  LINE_Y.forEach((y,i)=>el(s,"line",{x1:180,y1:y,x2:800,y2:y,
+    stroke:i===0?"#D8B23A":INK,"stroke-width":i===0?2.4:1.2,opacity:0,class:"anim",
+    style:`animation:fade .5s ease ${(3-i)*.18}s forwards`}));
+  txt(s,156,326,"C",{"text-anchor":"middle","font-family":"EB Garamond,serif",
+    "font-size":22,fill:GREY,opacity:0,class:"anim",style:"animation:fade .5s ease .9s forwards"});
   ["Ut","Re","Mi","Fa","Sol","La"].forEach((n,i)=>{
-    el(s,"rect",{x:236+i*96,y:314.5-i*17,width:15,height:11,fill:INK,opacity:0,
-      class:"anim",style:`animation:pop .45s ease ${1.1+i*.22}s forwards`});
-    txt(s,243+i*96,398,n,{"text-anchor":"middle","font-family":"EB Garamond,serif",
+    const y=320-i*17, x=250+i*94;                 /* line, space, line, ... */
+    el(s,"rect",{x:x-8,y:y-8,width:16,height:16,fill:INK,opacity:0,class:"anim",
+      transform:`rotate(45 ${x} ${y})`,
+      style:`animation:pop .45s ease ${1.1+i*.22}s forwards`});
+    txt(s,x,398,n,{"text-anchor":"middle","font-family":"EB Garamond,serif",
       "font-size":20,fill:GREY,opacity:0,class:"anim",
       style:`animation:fade .45s ease ${1.2+i*.22}s forwards`});
   });
